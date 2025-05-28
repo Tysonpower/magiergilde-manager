@@ -20,11 +20,11 @@ const clickLogin = () => {
     <div class="hero-content text-center">
       <div class="max-w-md prose">
         <h1 class="font-bold">
-          Hallo liebe Magiergilde.
+          Hallo liebe BD Mitglieder.
         </h1>
         <p>
           aufgrund der besseren Organisation meiner Charaktere habe ich in den letzten Tagen ein Tool entwickelt, mit
-          dem man die Charaktere der Magiergilde verfolgen kann. Und zwar vollautomatisch.
+          dem man die Charaktere der Gilde verfolgen kann. Und zwar vollautomatisch.
         </p>
 
         <button
