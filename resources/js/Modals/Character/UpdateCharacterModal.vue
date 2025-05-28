@@ -195,7 +195,7 @@ function inputFile(event: Event) {
 
       <label class="form-control w-full mb-2">
         <div class="label">
-          <span class="label-text">How many bubbles did you spend on the Bubble Shop?</span>
+          <span class="label-text">How many souls did you spend on the Soul Shop?</span>
         </div>
         <input
           v-model="form.bubble_shop_spend"

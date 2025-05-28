@@ -396,7 +396,7 @@ const copyCharactersAsString = () => {
                 />
               </p>
               <p>
-                Bubble Shop: {{ element.bubble_shop_spend }}
+                Soul Shop: {{ element.bubble_shop_spend }}
                 <font-awesome-icon
                   :icon="['fas', 'droplet']"
                 />
@@ -453,7 +453,7 @@ const copyCharactersAsString = () => {
                 Game Master
               </h4>
               <p>
-                Bubbles: {{ element.dm_bubbles }}
+                Souls: {{ element.dm_bubbles }}
                 <font-awesome-icon
                   :icon="['fas', 'droplet']"
                 />
@@ -766,7 +766,7 @@ const copyCharactersAsString = () => {
               />
             </p>
             <p>
-              Bubble Shop: {{ character.bubble_shop_spend }}
+              Soul Shop: {{ character.bubble_shop_spend }}
               <font-awesome-icon
                 :icon="['fas', 'droplet']"
               />
@@ -820,7 +820,7 @@ const copyCharactersAsString = () => {
               Game Master
             </h4>
             <p>
-              Bubbles: {{ character.dm_bubbles }}
+              Souls: {{ character.dm_bubbles }}
               <font-awesome-icon
                 :icon="['fas', 'droplet']"
               />

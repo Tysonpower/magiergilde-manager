@@ -65,13 +65,13 @@ defineExpose({
         </button>
       </form>
       <h3 class="font-bold text-lg mb-6">
-        Update your coins and bubbles
+        Update your coins and souls
       </h3>
 
       <div class="flex gap-2">
         <label class="form-control w-full mb-2">
           <div class="label">
-            <span class="label-text">Event Bubble</span>
+            <span class="label-text">Event Soul</span>
           </div>
           <input
             v-model="form.event_bubbles"
@@ -102,7 +102,7 @@ defineExpose({
             <span class="label-text"><tier-logo
               tier="bt"
               :size="14"
-            /> Bubble</span>
+            /> Soul</span>
           </div>
           <input
             v-model="form.bt_bubbles"
@@ -136,7 +136,7 @@ defineExpose({
             <span class="label-text"><tier-logo
               tier="lt"
               :size="14"
-            /> Bubble</span>
+            /> Soul</span>
           </div>
           <input
             v-model="form.lt_bubbles"
@@ -170,7 +170,7 @@ defineExpose({
             <span class="label-text"><tier-logo
               tier="ht"
               :size="14"
-            /> Bubble</span>
+            /> Soul</span>
           </div>
           <input
             v-model="form.ht_bubbles"
@@ -204,7 +204,7 @@ defineExpose({
             <span class="label-text"><tier-logo
               tier="et"
               :size="14"
-            /> Bubble</span>
+            /> Soul</span>
           </div>
           <input
             v-model="form.et_bubbles"
@@ -235,7 +235,7 @@ defineExpose({
       <div class="flex gap-2">
         <label class="form-control w-full mb-2">
           <div class="label">
-            <span class="label-text">Other Bubble</span>
+            <span class="label-text">Other Soul</span>
           </div>
           <input
             v-model="form.other_bubbles"

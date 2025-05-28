@@ -124,7 +124,7 @@ const calculateTotalCoins = () => {
               size="sm"
             />
             {{ calculateTotalBubbles() - calculateBubbleSpend(characters)
-            }} Bubbles
+            }} Souls
           </h3>
           <progress
             class="progress progress-accent w-full"
@@ -221,7 +221,7 @@ const calculateTotalCoins = () => {
                     :icon="['fas', 'droplet']"
                     size="sm"
                   />
-                  Bubbles
+                  Souls
                 </th>
                 <th>
                   <font-awesome-icon

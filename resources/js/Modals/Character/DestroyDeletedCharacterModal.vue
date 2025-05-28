@@ -41,7 +41,7 @@ defineExpose({
         restored.
       </p>
       <p class="italic text-error my-3">
-        Character and Filler with DM Bubbles/ Coins should not be deleted because of calculation.
+        Character and Filler with DM Souls/ Coins should not be deleted because of calculation.
       </p>
 
       <label class="form-control w-full mb-2">
