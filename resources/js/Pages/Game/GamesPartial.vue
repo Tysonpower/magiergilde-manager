@@ -120,7 +120,7 @@ const calculateTotalCoins = () => {
         <div class="card-body">
           <h3 class="card-title">
             <font-awesome-icon
-              :icon="['fas', 'droplet']"
+              :icon="['fas', 'ghost']"
               size="sm"
             />
             {{ calculateTotalBubbles() - calculateBubbleSpend(characters)
@@ -136,7 +136,7 @@ const calculateTotalCoins = () => {
             {{ calculateBubbleSpend(characters) }}
             of your {{ calculateTotalBubbles() }}
             <font-awesome-icon
-              :icon="['fas', 'droplet']"
+              :icon="['fas', 'ghost']"
               size="sm"
               fixed-width
             />
@@ -202,7 +202,7 @@ const calculateTotalCoins = () => {
           <h2 class="card-title">
             <span>
               <font-awesome-icon
-                :icon="['fas', 'droplet']"
+                :icon="['fas', 'ghost']"
                 size="sm"
               /> /
               <font-awesome-icon
@@ -218,7 +218,7 @@ const calculateTotalCoins = () => {
                 <th />
                 <th>
                   <font-awesome-icon
-                    :icon="['fas', 'droplet']"
+                    :icon="['fas', 'ghost']"
                     size="sm"
                   />
                   Souls
@@ -396,7 +396,7 @@ const calculateTotalCoins = () => {
               {{ calculateBubbleByGames([game]) }}
               <span v-if="game.has_additional_bubble">(Character Quest)</span>
               <font-awesome-icon
-                :icon="['fas', 'droplet']"
+                :icon="['fas', 'ghost']"
                 size="xs"
                 fixed-width
               />

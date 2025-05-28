@@ -117,7 +117,7 @@ const clickDestroyAdventureModal = async (adventure: Adventure) => {
             {{ calculateBubbleByAdventures([adventure]) }}
             <span v-if="adventure.has_additional_bubble">(Character Quest)</span>
             <font-awesome-icon
-              :icon="['fas', 'droplet']"
+              :icon="['fas', 'ghost']"
               size="xs"
               fixed-width
             />

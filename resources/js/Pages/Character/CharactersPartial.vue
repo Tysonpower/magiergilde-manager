@@ -365,7 +365,7 @@ const copyCharactersAsString = () => {
                   calculateBubblesToNextLevel(element) - calculateBubblesInCurrentLevel(element)
                 }}
                 <font-awesome-icon
-                  :icon="['fas', 'droplet']"
+                  :icon="['fas', 'ghost']"
                   size="sm"
                   fixed-width
                 />
@@ -398,7 +398,7 @@ const copyCharactersAsString = () => {
               <p>
                 Soul Shop: {{ element.bubble_shop_spend }}
                 <font-awesome-icon
-                  :icon="['fas', 'droplet']"
+                  :icon="['fas', 'ghost']"
                 />
               </p>
             </div>
@@ -455,7 +455,7 @@ const copyCharactersAsString = () => {
               <p>
                 Souls: {{ element.dm_bubbles }}
                 <font-awesome-icon
-                  :icon="['fas', 'droplet']"
+                  :icon="['fas', 'ghost']"
                 />
               </p>
               <p>
@@ -735,7 +735,7 @@ const copyCharactersAsString = () => {
                 calculateBubblesToNextLevel(character) - calculateBubblesInCurrentLevel(character)
               }}
               <font-awesome-icon
-                :icon="['fas', 'droplet']"
+                :icon="['fas', 'ghost']"
                 size="sm"
                 fixed-width
               />
@@ -768,7 +768,7 @@ const copyCharactersAsString = () => {
             <p>
               Soul Shop: {{ character.bubble_shop_spend }}
               <font-awesome-icon
-                :icon="['fas', 'droplet']"
+                :icon="['fas', 'ghost']"
               />
             </p>
           </div>
@@ -822,7 +822,7 @@ const copyCharactersAsString = () => {
             <p>
               Souls: {{ character.dm_bubbles }}
               <font-awesome-icon
-                :icon="['fas', 'droplet']"
+                :icon="['fas', 'ghost']"
               />
             </p>
             <p>
